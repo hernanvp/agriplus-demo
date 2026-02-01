@@ -141,29 +141,7 @@ speed, latitud, longitud
 }
 ```
 
-## 🚀 Publicación (GitHub Pages)
 
-### Opción 1: Interfaz Web de GitHub
-
-1. Crear repositorio en [github.com/new](https://github.com/new)
-2. Nombre sugerido: `agriplus-demo`
-3. Subir carpeta completa (arrastrar a navegador)
-4. Settings → Pages → Source: `main branch`
-5. ✅ Tu demo estará en: `https://tu-usuario.github.io/agriplus-demo/`
-
-### Opción 2: Git CLI
-
-```bash
-cd agriplus-demo
-git init
-git add .
-git commit -m "Initial commit - Agriplus Dashboard"
-git branch -M main
-git remote add origin https://github.com/tu-usuario/agriplus-demo.git
-git push -u origin main
-```
-
-Luego activar GitHub Pages en Settings.
 
 ## 🔒 Notas de Seguridad
 
